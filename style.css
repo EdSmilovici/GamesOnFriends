@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#theTable {
+    width: 100%;
+    position: relative;
+}
+
+#theBoard {
+    width: 100%;
+}
+
+#theGame {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 11%;
+    left: 20%;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.centerRow {
+    display: flex;
+    justify-content: center;
+}
+
+.centerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    font-size: xx-large;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: lightsalmon;
+}
